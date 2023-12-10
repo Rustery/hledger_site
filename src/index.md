@@ -1,9 +1,23 @@
-<img id="coins" src="images/coins2-248.png" style="width:120px; margin:2em 1em; float:left;" />
-<img id="coins" src="images/coins2-248.png" style="width:120px; margin:2em 1em; float:right;" />
+<!-- <img id="coins" src="images/coins2-248.png" style="width:120px; margin:2em 1em; float:left;" /> -->
+<!-- <img id="coins" src="images/coins2-248.png" style="width:120px; margin:2em 1em; float:right;" /> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito">
+<style>
+.content h1 { 
+  font-family: Gabarito;
+  font-size: 6em;
+  white-space:normal;
+  word-wrap:break-word;
+  text-align:center;
+  margin: 0.5em 0 0;
+  display:block;
+}
+</style>
 
-# hledger!
+# hledger
+
 <div id="tagline">
-Fast, robust, user-friendly<br>plain text accounting<br>⚡️💪🏼❤️
+Fast, friendly, robust<br> <a href="https://plaintextaccounting.org">plain text accounting</a> software
+<!-- <br>⚡️💪🏼❤️ -->
 </div>
 
 ## hledger is...
@@ -28,7 +42,10 @@ Fast, robust, user-friendly<br>plain text accounting<br>⚡️💪🏼❤️
 - actively developed and supported by [Simon Michael](http://joyful.com) and [contributors](CREDITS.md) since 2007
 - strengthened by your [feedback](support.md), [work](CONTRIBUTING.md) and [funding](sponsor.md). 🙏🏻\
 
-[Features](features.md) tells more, or don't hesitate to join [Discussion/Support](support.md) chat and ask questions.
+<img id="coins" src="images/coins2-248.png" style="width:25%; margin:1em 1em; float:right;" />
+
+Here's more about the [Features](features.md).
+Don't hesitate to join us in the [Discussion/Support](support.md) chat and ask questions.
 
 [![Github repo](https://img.shields.io/github/stars/simonmichael/hledger.svg?logo=GitHub&label=Github&color=brightgreen)](https://github.com/simonmichael/hledger)
 [![GitHub downloads](https://img.shields.io/github/downloads/simonmichael/hledger/total?label=Github+downloads)](https://github.com/simonmichael/hledger/releases)
@@ -389,13 +406,6 @@ hledger.org site tips:
   font-weight:bold;
 }
 
-.content h1 { 
-  font-size: 5em;
-  font-style: italic;
-  text-align:center;
-  margin: 0.5em 0 0;
-  display:block;
-}
 /* 
 .content h2 { 
   text-align:center;
